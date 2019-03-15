@@ -1,3 +1,19 @@
 html {
   font-family: 'Open Sans', sans-serif;
+  padding: 1rem;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+p {
+  padding-top: .5rem;
+}
+
+div {
+  padding: .5rem;
 }

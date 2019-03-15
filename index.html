@@ -14,47 +14,49 @@
   <section>
     <div>
       <h1>Want to go to Mars?</h1>
-      <fieldset>
-        <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-        <form method="POST">
-          <div>
-            <label for="personal details">Personal details</label>
-            <input id="personal details" name="personal details">
-          </div>
-          <div>
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <form method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+        <fieldset>
+          <legend>Personal details</legend>
+          <div class="grid">
+          <div class="unit s-1 m-1 l-1-2 xl-1-2">
             <label for="name">Name</label>
             <input id="name" name="name">
           </div>
-          <div>
-            <label for="age">age</label>
+          <div class="unit s-1 m-1 l-1-2 xl-1-2">
+            <label for="age">Age</label>
             <input id="age" name="age">
           </div>
-          <div>
+          <div class="unit s-1 m-1 l-1-2 xl-1-2">
             <label for="email">Email</label>
             <input id="email" name="email">
           </div>
-          <div>
-            <label for="physical fitness">Physical fitness</label>
-            <select id="physical fitness" name="physical fitness">
+          <div class="unit s-1 m-1 l-1-2 xl-1-2">
+            <label for="physical-fitness">Physical fitness</label>
+            <select id="physical-fitness" name="physical fitness">
               <option>Super-human</option>
               <option>Fit as a fiddle</option>
               <option>Not terribly strong</option>
               <option>A little couch-potato-y</option>
             </select>
-            <div>
-              <label for="address">Address</label>
-              <textarea id="address" name="address"></textarea>
-            </div>
-            <div>
-            </fieldset>
-            <fieldset>
-              <h2>Mission statement</h2>
-              <legend>Why do you want to go to Mars?</legend>
-            </fieldset>
+          </div>
+          <div class="unit s-1 m-1 l-1 xl-1">
+            <label for="address">Address</label>
+            <textarea id="address" name="address"></textarea>
+          </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Mission statement</legend>
+          <p>Why do you want to go to Mars?</p>
+          <textarea id="why" name="why"></textarea>
+        </fieldset>
+        <div>
+          <button type="submit">Register for the trip!</button>
+        </div>
+      </form>
+    </div>
+  </section>
 
-            Register for the trip!
-
-            Request to join the mission
-
-          </body>
-          </html>
+</body>
+</html>
