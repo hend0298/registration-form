@@ -1,19 +1,30 @@
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding: 1rem;
-  line-height: 1.5;
-  background-color: #fff;
+  background-color: #f2f2f2;
   color: #000;
 }
 
+body {
+  background-color: #fff;
+}
+
 h1 {
-  margin-bottom: 0;
+  margin-bottom: .5rem;
+  border-bottom: solid;
+  border-width: 1px;
 }
 
 p {
   padding-top: .5rem;
+  margin-bottom: 0;
 }
 
 div {
   padding: .5rem;
+}
+
+.details {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
